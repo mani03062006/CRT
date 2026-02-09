@@ -22,7 +22,7 @@ Numpy:
 NUmpy-->Numerical Python
 it can easily access arrays
 Mainly uses in ML,DS,AI applications'''
-
+'''
 import numpy as np
 arr=np.array([12,45,78,23])
 print(arr)
@@ -38,3 +38,4 @@ print("Odd number list is: ",np.arange(1,10,2))
 n=int(input("Enter the size of array: "))
 ele=list(map(int,input("Enter the elements of array: ").split()))
 print("Array elements are: ",np.array(ele))
+'''
