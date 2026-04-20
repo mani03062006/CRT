@@ -6,6 +6,5 @@ def digital_sum(n):
 print(digital_sum(386))
 
 def sorted_array(nums):
-    if nu
     pass
 print(sorted_array([10,20,30,40,50]))
