@@ -14,7 +14,7 @@ def Binary_search(nums,target):
         mid=(low+high)//2
         if nums[mid]==target:
             return mid
-        elif nums[mid]>target:
+        elif nums[mid]<target:
             high=mid-1
         else:
             low=mid+1
